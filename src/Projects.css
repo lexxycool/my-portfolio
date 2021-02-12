@@ -62,6 +62,7 @@
 }
 
 .my-projects button {
+    position: relative;
     margin: 20px 30px;
     font-size: 1rem;
     padding: 5px;
@@ -70,15 +71,17 @@
     color: #68b7b9;
     background-color: #000;
     border: 1px solid #68b7b9;
-    border-radius: 2px;
+    border-radius: 2px;  
 
 }
+
 
 .my-projects button:hover {
     color: #000 ;
     background-color: #68b7b9 ;
 
 }
+
 .my-projects button:focus {
     outline: none;
 }
