@@ -1,0 +1,94 @@
+.project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #68b7b9;
+    
+}
+
+.project-container h4 {
+    text-align: center;
+    margin-top: 25px;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+.projects {
+    display: flex;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.my-projects {
+    border: 1px solid grey;
+    width: 30%;
+    height: 25rem;
+    margin: 80px 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #000;
+   
+}
+
+.my-projects img {
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.my-projects p {
+    margin: 10px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #68b7b9;
+    line-height: 10px;
+
+}
+
+.my-projects span {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+
+}
+
+.my-projects button {
+    margin: 20px 30px;
+    font-size: 1rem;
+    padding: 5px;
+    width: 4rem;
+    font-weight: 900;
+    color: #68b7b9;
+    background-color: #000;
+    border: 1px solid #68b7b9;
+    border-radius: 2px;
+
+}
+
+.my-projects button:hover {
+    color: #000 ;
+    background-color: #68b7b9 ;
+
+}
+.my-projects button:focus {
+    outline: none;
+}
+
+
+
+
+
+
+ 
+
+
+
