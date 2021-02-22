@@ -38,14 +38,12 @@ function AboutMe() {
                   <FaTools className='skill_symbol'/>  <p></p>
                         <h3>TECH SKILLS</h3>
                   <ul>
-                            <li><p>HTML5</p></li>
-                            <li><p>CSS3</p></li>
-                            <li><p>Javascript</p></li>
-                            <li><p>Bootstrap</p></li>
-                            <li><p>ReactJs</p></li>
-                            <li><p>ReactNative</p></li>
-                            <li><p>Git/Github</p></li>
-                            <li><p>Firebase</p></li>
+                        <li><p>HTML5</p></li>
+                        <li><p>CSS3/Bootstrap</p></li>
+                        <li><p>Javascript</p></li>
+                        <li><p>React/React Native</p></li>
+                        <li><p>Git/Github</p></li>
+                        <li><p>Firebase</p></li>
                   </ul>
                 </Col>
 
