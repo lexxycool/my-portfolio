@@ -28,7 +28,7 @@ const styles = {
         marginLeft: '10px',
         marginRight: '30px',
         fontWeight: 800,
-        fontSize: '25px',
+        fontSize: '30px',
     
     },
 

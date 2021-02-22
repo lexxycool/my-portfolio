@@ -5,6 +5,7 @@ import movie_image from  './images/movie_image.png';
 import amazon_image from './images/amazon_image.png';
 import tea_landing_page from './images/tea_landing_page.png';
 import weather_app from './images/react-native-weather-app.png';
+import portfolio_image from './images/my-portfolio.png';
 
 
 
@@ -24,6 +25,8 @@ function Projects() {
 	const weather_expo_url = 'https://expo.io/@lexxycool/projects/weather-app-react-native';
 
 	const weather_app_github = 'https://github.com/lexxycool/weather-app-react-native';
+
+
 			
     
 
@@ -35,7 +38,7 @@ function Projects() {
 						<img src={movie_image} alt='movieImage' />
 						<p>Movies App</p>
 						<span>
-							A movie app built with react.js, showcasing reactive components,
+							A movie app built with react.js, showcasing react components,
 							search features and API calls.
 						</span>
 						<br />
@@ -50,7 +53,7 @@ function Projects() {
 						<img src={amazon_image} alt='amazonImage' />
 						<p>Amazon Clone App</p>
 						<span>
-							E commerce App built with react.js featuring reactive components,
+							E commerce App built with react.js featuring react components,
 							API calls, user authentication.
 						</span>
 						<br />
@@ -65,7 +68,7 @@ function Projects() {
 						<img src={tea_landing_page} alt='tea_page' />
 						<p>TeaShop</p>
 						<span>
-							A responsive landing page built with react.js,reactive components
+							A responsive landing page built with react.js,react components
 							and react-bootstrap features.
 						</span>
 						<br />
@@ -82,8 +85,7 @@ function Projects() {
 						<img src={weather_app} alt='weather app' />
 						<p>Weather App</p>
 						<span>
-							A React Native App showing weather
-							info of a location, API calls,
+							A React Native App showing weather info of a location, API calls,
 							conversion of different temp unit.
 						</span>
 						<br />
@@ -95,7 +97,7 @@ function Projects() {
 							<button>Repo</button>
 						</Link>
 					</div>
-					
+
 				</div>
 			</div>
 		);
