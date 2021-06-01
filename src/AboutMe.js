@@ -10,7 +10,7 @@ import './AboutMe.css';
 function AboutMe() {
     return (
   
-        <div className='aboutMe'>
+        <div className='aboutMe' id='welcome-section'>
             
              <h1>About Me</h1>   
         <div className='aboutMe_body'> 
@@ -42,8 +42,9 @@ function AboutMe() {
                         <li><p>CSS3/Bootstrap</p></li>
                         <li><p>Javascript</p></li>
                         <li><p>React/React Native</p></li>
+                        <li><p>Java</p></li>
                         <li><p>Git/Github</p></li>
-                        <li><p>Firebase</p></li>
+                        
                   </ul>
                 </Col>
 

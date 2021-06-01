@@ -132,6 +132,11 @@ h1 {
     .aboutMe h1 {
         font-size: 30px;
     }
+    .aboutMe_text {
+        margin-right: 10px;
+    }
+
+
 }
 
 

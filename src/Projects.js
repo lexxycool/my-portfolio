@@ -5,7 +5,7 @@ import movie_image from  './images/movie_image.png';
 import amazon_image from './images/amazon_image.png';
 import tea_landing_page from './images/tea_landing_page.png';
 import weather_app from './images/react-native-weather-app.png';
-import portfolio_image from './images/my-portfolio.png';
+
 
 
 
@@ -16,7 +16,9 @@ function Projects() {
 
     const movie_github = 'https://github.com/lexxycool/movie_app';
 
-    const e_commerce_url = 'https://challenge-806b4.web.app/';
+	const e_commerce_url = 'https://challenge-806b4.web.app/';
+	
+	const e_commerce_github = 'https://github.com/lexxycool/amazon-clone';
 			
     const tea_url = 'https://tea-landing-page.web.app/';
 
@@ -33,8 +35,8 @@ function Projects() {
     return (
 			<div className='project-container'>
 				<h4>My projects</h4>
-				<div className='projects'>
-					<div className='my-projects'>
+				<div className='projects' id='project'>
+					<div className='project-tile'>
 						<img src={movie_image} alt='movieImage' />
 						<p>Movies App</p>
 						<span>
@@ -49,7 +51,7 @@ function Projects() {
 							<button>Repo</button>
 						</Link>
 					</div>
-					<div className='my-projects'>
+					<div div className = 'project-tile' >
 						<img src={amazon_image} alt='amazonImage' />
 						<p>Amazon Clone App</p>
 						<span>
@@ -60,16 +62,16 @@ function Projects() {
 						<Link to={{ pathname: e_commerce_url }} target='_blank'>
 							<button>Live</button>
 						</Link>
-						<Link>
+						<Link to={{ pathname: e_commerce_github }} target='_blank'>
 							<button>Repo</button>
 						</Link>
 					</div>
-					<div className='my-projects'>
+					<div className = 'project-tile' >
 						<img src={tea_landing_page} alt='tea_page' />
 						<p>TeaShop</p>
 						<span>
 							A responsive landing page built with react.js,react components
-							and react-bootstrap features.
+							and react-bootstrap.
 						</span>
 						<br />
 
@@ -81,7 +83,7 @@ function Projects() {
 						</Link>
 					</div>
 
-					<div className='my-projects'>
+					<div className = 'project-tile' >
 						<img src={weather_app} alt='weather app' />
 						<p>Weather App</p>
 						<span>

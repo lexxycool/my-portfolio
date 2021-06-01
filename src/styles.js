@@ -2,14 +2,15 @@ const styles = {
 
     cardImage: {
         backgroundSize: 'cover',
-        maxHeight: '800px',
+        maxHeight: '700px',
         overflow: 'hidden',
-        fontSize: '30px'  
+        fontSize: '30px', 
+        marginBottom: '40px' 
     },
     cardTitle: {
         fontSize: '30px',
         color: '#006400',
-        fontWeight: '800',
+        fontWeight: '700',
         marginLeft: '60px',
         marginTop: '45px'
 
@@ -17,7 +18,7 @@ const styles = {
 
     cardDesc: {
         color: '#696969',
-        marginLeft: '60px',
+        marginLeft: '40px',
         marginTop: '10rem',
         fontWeight: '800',
         fontSize: '35px'
@@ -25,20 +26,20 @@ const styles = {
     },
 
     cardName: {
-        marginLeft: '10px',
-        marginRight: '30px',
-        fontWeight: 800,
-        fontSize: '30px',
+        marginLeft: '2px',
+        marginRight: '10px',
+        fontWeight: '800',
+        fontSize: '25px',
     
     },
 
 
     cardButton: {
         marginLeft: '60px',
-        marginTop: '100px',
+        marginTop: '60px',
         textTransform: 'lowercase',
         fontSize: '25px',
-        fontWeight: 700
+        fontWeight: '700'
 
     },
 
@@ -46,7 +47,7 @@ const styles = {
     skillHeader: {
         marginBottom: '50px',
         marginTop: '30px',
-        fontWeight: 700
+        fontWeight: '700'
     },
 
     skillItem: {
@@ -60,7 +61,7 @@ const styles = {
     chart: {
         position: 'relative',
         width: '100%',
-        height: 0,
+        height: '0',
         paddingTop: '100%',
         marginBottom: '27px'
     },
